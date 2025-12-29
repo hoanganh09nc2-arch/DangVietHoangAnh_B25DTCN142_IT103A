@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="portal.rikkeiedu.vn">
+        <label for="name">Họ và tên:</label>
+        <input type="text" name="name" id="name">
+        <br/>
+        <label for="birthday">Ngày sinh đầy đủ:</label>
+        <input type="date" name="birthday" id="birthday">
+        <br/>
+        <label for="time">Tháng và năm nhập học:</label>
+        <input type="month" name="time" id="time">
+        <br/>
+        <label for="studytime">Thời gian học:</label>
+        <input type="time" name="studytime" id="studytime">
+        <br/>
+        <label for="gender">Giới tính:</label>
+            <input type="radio" name="gender" id="male">nam
+            <input type="radio" name="gender" id="female">Nữ
+            <input type="radio" name="gender" id="other">Khác
+        <br/>
+        <label for="Email">Email sinh viên:</label>
+        <input type="email" name="Email" id="Email" placeholder="sinhvien@univesity.edu.vn">
+        <br/>
+        <label for="passwords">Mật khẩu:</label>
+        <input type="password" name="passwords" id="passwords">
+        <br/>
+        <label for="goal">Mục tiêu học tập:</label>
+        <textarea name="goal" id="goal"></textarea>
+        <br/>
+        <label for="facility">Cơ sở:</label>
+        <select name="city" id="city">
+            <option value="hn">Hà Nội</option>
+            <option value="hcm">TP Hồ Chí Minh</option>
+        </select>
+        <br/>
+        <label for="fileupload">Ảnh thẻ sinh viên</label>
+        <input type="file" name="fileupload" id="fileupload">
+        <br/>
+        <label for="">Môn học yêu thích:</label>
+            <input type="checkbox" name="favsubject" id="math">
+            <label for="math">Toán học</label>
+            <input type="checkbox" name="favsubject" id="it">
+            <label for="it">Lập trình</label>
+            <input type="checkbox" name="favsubject" id="english">
+            <label for="english">Tiếng Anh</label>
+            <input type="checkbox" name="favsubject" id="physic">
+            <label for="physic">Vật lí</label>
+        <br/>
+        <label for="level">Tiến độ học tập</label>
+        <input type="range" name="level" id="level">
+        <br/>
+        <label for="schoolyear">Năm học thứ:</label>
+        <input type="number" name="schoolyear" id="schoolyear">
+        <br/>
+        <label for="search">Tìm kiếm môn học</label>
+        <input type="text" name="search" id="search">
+        <br/>
+        <label for="favcolor">Màu sắc yêu thích:</label>
+        <input type="color" name="favcolor" id="favcolor">
+        <br/>
+        <button type="reset">Hủy</button>
+        <button type="reset">Làm mới</button>
+        <button type="submit">Gửi</button>
+    </form>
+</body>
+</html>
