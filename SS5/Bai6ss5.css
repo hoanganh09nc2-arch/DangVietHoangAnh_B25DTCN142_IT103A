@@ -1,0 +1,66 @@
+
+:root {
+    --light-blue-bg: #e6f7ff;
+    --main-color: #0000ff;
+    --doctor-name-color: #0000ff;
+    --specialty-color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-title {
+    color: var(--main-color);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.doctor-card {
+    background-color: var(--light-blue-bg);
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.doctor-image {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.doctor-name {
+    color: var(--doctor-name-color);
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.specialty {
+    color: var(--specialty-color);
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.services-list {
+    max-width: 400px; 
+    margin: 20px auto;
+    text-align: center; 
+}
+
+.services-list ul {
+    list-style: none;
+    padding: 0; 
+    text-align: center;
+}
+
+.services-list li {
+    font-size: 1.1em;
+    margin: 8px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}

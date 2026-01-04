@@ -1,0 +1,49 @@
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#ffffff;
+    text-align:center;
+}
+
+.section{
+    background:#f6f8fb;
+    padding:40px 20px;
+}
+
+h1{
+    color:#1e5bff;
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#1e5bff;
+    font-style:italic;
+    font-size:14px;
+    margin-bottom:30px;
+}
+
+.image-box img{
+    width:320px;
+    height:auto;
+}
+
+.locations{
+    margin-top:40px;
+}
+
+.locations h2{
+    color:#1e5bff;
+    font-size:24px;
+    margin-bottom:20px;
+}
+
+.locations p{
+    margin:8px 0;
+    font-size:14px;
+}
+
+.red{
+    color:red;
+}
