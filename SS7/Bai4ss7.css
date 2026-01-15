@@ -1,0 +1,22 @@
+.service-list {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f8f6;
+}
+
+.service-option {
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+h3 {
+    color: #1eceff;
+}
+
+.service-option:hover {
+    transform: scale(1.05);
+}
