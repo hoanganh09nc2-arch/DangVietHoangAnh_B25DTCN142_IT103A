@@ -35,10 +35,9 @@ body {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 
-/* --- Banner (Gradient Header) --- */
 .card-banner {
     height: 180px;
-    background: linear-gradient(135deg, #6c80f4 0%, #7d52bd 100%);
+    background: linear-gradient(135deg, #6c80f4 0%, #7d52bd 100%); /* --- Banner (Gradient Header) --- */
     position: relative;
     display: flex;
     justify-content: center;
